@@ -1,0 +1,17 @@
+Ghandi et al. 2010
+Rapid optical and X-ray timing observations of GX339-4: multicomponent optical
+variability in the low/hard state
+https://ui.adsabs.harvard.edu/abs/2010MNRAS.407.2166G/abstract
+-------------------------
+
+0. Abstact
+
+
+1. Introduction
+2. Observations and data analysis
+3. Results: Spectroscopy
+4. Results: Timing
+5. Discussion
+7. Conclusions
+
+
