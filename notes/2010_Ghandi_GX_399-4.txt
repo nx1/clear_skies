@@ -5,12 +5,36 @@ https://ui.adsabs.harvard.edu/abs/2010MNRAS.407.2166G/abstract
 -------------------------
 
 0. Abstact
-
+    - Galactic Black hole binary GX 339-4 in the low/hard state
+    - GX 339-4 displays slow (~20s) QPOs as well as fast 50ms flaring activity
+      in the optical
+    - Power spectral analysis over 0.004 - 10 Hz is presented
+    - A large optical to X-ray flux ratio is observed when compared to the jet
+      dominated state
+    - Studying the X-ray/Optical cross-spectrum in Fourier space shows a markedly
+      different behavriour above and below 0.2 Hz
+    - The Peak of the cross spectrum corresponds to a lag of 150ms
+    - A linear RMS-Flux relationship is seen indicative of propogating fluctuations 
+    - The low frequency QPO is seen in the optical but NOT the X-rays
+    - There is evidence of reprocessing at the lowest Fourier frequencies with optical
+      lags at ~10s and strong coherence in the blue u' filter 
+    -  
 
 1. Introduction
+
 2. Observations and data analysis
+    - Observations made in June 2007 over 4 nights separated by two days each
+    - 3 optical SDSS bands (r', g', u') were analysed using ULTRACAM
+    - ULTRACAM is capable of imaging frame rates upto 500Hz
+    - Spectrum were obtained using FORS2
+    - X-ray measurements were made with RXTE
+    - Lightcurves were barycentered in both the X-ray and Optical
+
 3. Results: Spectroscopy
 4. Results: Timing
+    - 
+
+
 5. Discussion
 7. Conclusions
 
