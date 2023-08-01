@@ -1,0 +1,95 @@
+Dear Poshak,
+
+Thank you for the congratulations and the lovely picture! I have been reading
+through the project proposal and have taken some notes and have some additional
+questions.
+
+The Project
+-----------
+The project is a collaboration between the University of Southampton and The
+University of York and facilitated by the STFC Air Quality Network (SAQN).
+
+The proposal suggests to use rapid time-series techniques that have been
+developed in astronomy for possible use in high frequency air pollution data
+available in 1-second to 1-minute intervals. The analysis of high resolution
+time series remains under-exploited in the field, and so this analysis could
+provide novel insights.
+
+The aim of the project is to develop three work packages over the course of 8
+months, with the ultimate aim of publishing in an air pollution journal at the
+end of the first two projects.
+
+    - WP 1 : Identifying patterns against background variability using cross-correlation techniques
+    - WP 2 : Identifying novel periodicities in the data using Fourier techniques
+    - WP 3 : Communication on how these techniques can be used for policy development
+
+Work projects 1 & 2 are expected to take ~4 Months each with the intention of
+publishing within that timeframe, WP3 is to be undertaken concurrently with 1 & 2.
+
+You have said that the official start date for the project would likely be October
+but I would be completely fine to start ASAP.
+
+
+Overview of secondee’s background and suitability to project
+------------------------------------------------------------
+
+I have experience working with time series across a wide range of different
+fields and timescales. In astronomy, I have worked on the multiwavelength
+analysis of unevenly sampled month-timescale light curves of ULXs with cadence
+of days to identify correlated patterns of behaviour. I have also worked with
+much higher resolution data, working with individual photon time-of-arrival
+data using NuSTAR to search for pulsations in several sources.
+
+I worked at a condition monitoring company called Senseye for three months in
+2019 and worked on the analysis of high resolution sensor data and used applied
+forecasting procedures to uncover seasonalities in the data
+https://facebook.github.io/prophet/
+
+I have also worked for Shell, where I have used machine learning techniques to
+predict the power output of from multivariate time series sampled in 5-minute
+intervals. 
+
+I am familiar with creating Python packages, documenting code and using GitHub
+for development.
+
+
+Travel & Supervision
+--------------------
+
+It is absolutely no problem for me to travel to Southampton a few times a month
+to meet in person, I have plenty of friends who still live there and are
+willing to lend me a spare room. I have a full working desk setup currently at
+my home in London and I can bring my laptop in for meetings.
+
+I also see that there are plans to visit the SAQN in York for 3 days to meet
+the rest of the team, this of course is no problem, but I was curious to know
+at which stage of the process this would likely be?
+
+Questions
+---------
+What would happen to the project if I were to have to stop before the end of
+the 8 month period?
+    - I have heard back from Natalie Webb and will be having an interview over
+      zoom on the 21-22nd of August for the position. In the event that I am
+      successful it would start be starting as early as starting as early as
+      November 2023. 
+
+What would be your preferred frequency for the in person meetings? 
+
+How much would the pay be, and would the salary be paid on a monthly basis?
+    - I have had a through the document but this figure appears to have alluded me.
+
+
+Kind Regards,
+Norman
+
+Team
+----
+Prof. Poshak Gandhi https://www.southampton.ac.uk/people/5xd2nb/professor-poshak-gandhi
+Dr. Sarah Moller    https://www.york.ac.uk/chemistry/staff/academic/h-n/smoller/
+Prof. David Carslaw https://www.york.ac.uk/chemistry/staff/academic/a-c/dcarslaw/
+Fleur Hughes        https://www.ukri.org/news-and-events/101-jobs-that-change-the-world/fleur-hughes/
+
+Links
+-----
+Wolfson Atmospheric Chemistry Laboratories : https://www.york.ac.uk/chemistry/research/wacl/
