@@ -2,23 +2,42 @@
 
 Clear Skies Meeting #1
 ----------------------
-
-Congratulations on becoming HOG.
-
-
 Questions:
 - Scientific
 
+
 - Project
-            
+    - What do you think the timeline for the project will look like?
+    - What are the key milestones?
 
 - Administrative
     - Shall I reach out to Dr Nicholas Marsden at Manchester for data.
 
-
 - Logistical
-How often should meetings be?
-    - I am happy to come to Southampton, but it's easier if I know a little bit in advance.
+    - How often should we have meeting be?
+    - How can we best make this project a success?
+
+Manchester Air Quality Supersite Time Resolution
+------------------------------------------------
+Gases:
+1  Second: Ammonia (NH3), Carbon Dioxide (CO2), Methane (CH4)
+10 Second: Nitrogen Dioxide (NO_2)
+20 Second: Ozone (O_3), Nitric Oxide (NO), (NO_y)
+
+Aerosols:
+1  Second: Particle Number
+1  Minute: Black/Brown Carbon, Particulate Matter (PM1, PM2.5, PM10)
+5  Minute: Particle Size Distribution
+30 Minute: Non-refractory composition
+1  Hour:   Elemental Composition
+
+Meterology:
+20Hz (50 ms) : Wind Speed and Direction
+5  Second    : Solar radiation
+15 Second    : Boundary Layer and Cloud Base Height
+1  Minute    : Precipitation (rate and type), Temperature, Humidity and Pressure
+
+
 
 
 
