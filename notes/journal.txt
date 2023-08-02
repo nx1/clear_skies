@@ -4,18 +4,29 @@ Clear Skies Meeting #1
 ----------------------
 Questions:
 - Scientific
-
+    - What are the N_co_adds = 50 co-adds for each u' data point?
+    - What is the origin of this fast flaring?
+    - How does poission uncertainties lead to white noise?
 
 - Project
     - What do you think the timeline for the project will look like?
+        - One of the things mentioned was that it would be good to have a model
+        for the air pollution metric, then we could see if it significantly above or below
+        the model.
+
     - What are the key milestones?
+    - I will keep a continuous monolithic journal for the days I work on the
+      project starting today.
 
 - Administrative
     - Shall I reach out to Dr Nicholas Marsden at Manchester for data.
+    - Will I be paid restroactively?
 
 - Logistical
     - How often should we have meeting be?
     - How can we best make this project a success?
+    - What is your prefered method of supervision?
+
 
 Manchester Air Quality Supersite Time Resolution
 ------------------------------------------------
@@ -38,8 +49,33 @@ Meterology:
 1  Minute    : Precipitation (rate and type), Temperature, Humidity and Pressure
 
 
+NO_x is NOx is shorthand for nitric oxide (NO) and nitrogen dioxide (NO_2)
+NOx does not include nitrous oxide (N_2 O)
 
+NOy is defined as the sum of NOx plus the NOz compounds produced from the
+oxidation of NOx which include nitric acid, nitrous acid (HONO), dinitrogen
+pentoxide (N2O5), peroxyacetyl nitrate (PAN), alkyl nitrates (RONO2),
+peroxyalkyl nitrates (ROONO2), the nitrate radical (NO3), and peroxynitric acid
+(HNO4). See: https://en.wikipedia.org/wiki/NOx
+
+
+I have downloaded some data from the UK Air Information Data Archive for Southampton
+Center and also Tower Hamlets.
+
+The data has a frequency of 1hr intervals and contains NaN values that could
+realisitically be interpolated.
+
+NO, NO2 and NOXasNO2 are all strongly correlated
+PM10 and PM25 are also strongly correlated.
+
+NO and SO2 are correlated at r~0.6
+
+
+[x] Download Data from UK Air Information Data Archive
+[x] Create correlation matricies and corner plots for the data 
+[x] Create PSDs from the data
 
 
 # TODO (x:done -:started)
-[ ] Read through and take notes on GX399-4 Paper.
+[-] Read through and take notes on GX399-4 Paper.
+[ ] Create cross correlations

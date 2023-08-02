@@ -32,7 +32,62 @@ https://ui.adsabs.harvard.edu/abs/2010MNRAS.407.2166G/abstract
 
 3. Results: Spectroscopy
 4. Results: Timing
-    - 
+    4.1 Light Curves
+        
+        Superimposed Shot
+        -----------------
+        - The flare-like events seen in the lightcurves are known as `shots'
+        - The analysis of these shots may be carried out via method of
+          superimposing these shots.
+        - This method can extract key physics from the complex light curves in the X-rays
+
+        https://ui.adsabs.harvard.edu/abs/2001ApJ...554..528N/abstract
+        https://ui.adsabs.harvard.edu/abs/2003A%26A...407..335M/abstract
+
+     
+        Light Curve binning and co-adds
+        -------------------------------
+            variables: t_bin, N_co_adds
+            - What are the N_co_adds = 50 co-adds for each u' data point?
+            - X-ray data is binned to t_bin = 50ms
+
+        Flare Selection
+        ---------------
+            variables: f, t_m, t_p
+        - Flares selected by having a peak that is
+            f = CR_max / CR_mean
+          above the mean count rate in a t_m = 32 s long section
+          the flares were also selected to be within continuous
+          segments of atleast t_p = +- 4s
+
+       4.1.1 
+        - The tail of the flares are fitted with an exponential decay of the
+          form:
+            A * exp(-t / tau)
+          tau was found to be of around ~0.01 meaning that the fastest rise and
+          fall timescales of the optical flaring probed are only of around
+          100ms
+
+        - The flare can also be fit with both the rise and decay, allowing to
+          see if the flares are asymetrical
+
+
+        - What is the origin of this fast flaring?
+    
+   4.2 Power Spectra 
+        - The power spectral density (PSD) are computed as the modulus square of
+          the discrete Fourier transforms of the light curves.
+
+        - The Frequencies in the PSD go from 1 / N dt to the Nyquist frequency 1 / 2 dt
+          and are evenly spaced and N/2 in number.
+
+        - The normalization used is the standard rms-squared one
+
+        4.2.1 : Noise Levels
+            - Poisson uncertainties introduce a constant white noise level, which becomes
+              increasingly important at high Fourier frequencies.
+
+            - How does poission uncertainties lead to white noise?
 
 
 5. Discussion

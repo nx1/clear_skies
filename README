@@ -13,6 +13,18 @@ http://www.cas.manchester.ac.uk/
 Manchester Air Quality Supersite
 http://www.cas.manchester.ac.uk/restools/firs/
 
+UK Air Information Data Archive
+-------------------------------
+https://uk-air.defra.gov.uk/data/
+https://uk-air.defra.gov.uk/data/data_selector_service
+
+Best way to download data is to find a site like the following:
+https://www.airqualityengland.co.uk/site/data?site_id=TH2
+Go to the "Download Data" tab
+use Ctrl to select all metrics
+https://www.airqualityengland.co.uk/assets/downloads/2022-01-01-230802122803.csv
+
+
 Contacts
 --------
 Wolfson Atmospheric Chemistry Laboratory, University of York
