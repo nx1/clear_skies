@@ -10,9 +10,10 @@ Questions:
 
 - Project
     - What do you think the timeline for the project will look like?
+
         - One of the things mentioned was that it would be good to have a model
-        for the air pollution metric, then we could see if it significantly above or below
-        the model.
+          for the air pollution metric, then we could see if it significantly
+          above or below the model.
 
     - What are the key milestones?
     - I will keep a continuous monolithic journal for the days I work on the
@@ -76,6 +77,31 @@ NO and SO2 are correlated at r~0.6
 [x] Create PSDs from the data
 
 
+# 03/08/2023
+
+A comon method of analysing PSDs in astronomy is by decomposing the spectrum into
+a summation of Lorentzian components.
+
+For example in GX339-4 it is found that three Lorentzian components are capable of
+describing the spectrum.
+
+Fitting a single Lorentzian to the data is fairly trivial, however specifying
+an arbitrary number of fit variables using scipy.optimize becomes rather messy
+very quickly as the parameters must be processed in the function by their index
+eg. params[0], and then then must be collected up at the end while keeping
+track of the order. Although this is doable, the lmfit provides a provides a
+high-level interface to non-linear optimization and curve fitting problems for
+Python. It builds and expands on many of the methods found in scipy.optimize
+and seems suitable for this paticular problem.
+
+
+
 # TODO (x:done -:started)
 [-] Read through and take notes on GX399-4 Paper.
 [ ] Create cross correlations
+[ ] Create Lorentzian fits to PSD
+[ ] Normalize PSDs
+[ ] Create Python package
+
+
+
