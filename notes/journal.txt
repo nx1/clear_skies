@@ -105,6 +105,9 @@ have to perform some data binning on the PSD in order for the fit to converge we
 also think I will have to perform some normalization on my PSDs, as currently they
 are topping out at 1e9 and other extremely large values.
 
+I have added in the normalization to the PSD to follow the usual rms-squared standardization,
+this has significantly brought down the maximum values reached by the PSD.
+
 # TODO (x:done -:started)
 [-] Read through and take notes on GX399-4 Paper.
 [ ] Create cross correlations
