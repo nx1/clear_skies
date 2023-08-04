@@ -95,10 +95,20 @@ Python. It builds and expands on many of the methods found in scipy.optimize
 and seems suitable for this paticular problem.
 
 
+# 04/08/2023
+
+I have managed to create some data created from two summed Lorentzians and use lmfit
+to fit the data to reproduce the original parameters from the component model.
+
+Now I need to see how well this works for the PSD, my suspicion is that I will likely
+have to perform some data binning on the PSD in order for the fit to converge well. I
+also think I will have to perform some normalization on my PSDs, as currently they
+are topping out at 1e9 and other extremely large values.
 
 # TODO (x:done -:started)
 [-] Read through and take notes on GX399-4 Paper.
 [ ] Create cross correlations
+
 [ ] Create Lorentzian fits to PSD
 [ ] Normalize PSDs
 [ ] Create Python package
