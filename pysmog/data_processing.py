@@ -1,3 +1,5 @@
+import numpy as np
+
 def bin_data(x_data, y_data, N_bins=100):
     """
     Bins the x-y data into a specified number of bins and calculates the mean value of y-data in each bin.

@@ -123,15 +123,90 @@ I have binned the data using the following method:
     x_bin_indices = [1      1     1      1     1]
     bin_means     = [1.35  0.014 0.0086 0.0088 0.043]
 
+[x] Normalize PSDs
+
+# 07/08/2023
+
+I will now attempt to fit the N Lorentzian model to the binned data, one thing
+I have been unsure about until now is how exactly the fitting will work with
+the data, the PSDs are normally plotted in Log-Log space othwise it is
+impossible to see any of the detail in the PSD, however I don't know if fitting
+to the data in linear space will be successful or not, or whether I should
+convert the model to output log10() of its normal value and then also log10()
+the data and do the fit there.
+
+I imagine there is likely some sublety involved in the minimization routine
+depending on the spacing of the data points, I will investigate today.
+
+I have also now created a python package called "pysmog" that I will iterate upon
+as I add more analysis and data processing to the pipeline.
+
+[x] Create Python package
+[x] Arrange Meeting with Poshak
+
+# 08/08/2023
+[x] Read through and take notes on GX399-4 Paper.
+
+I have performed a cross-correlation on the various different combinations of parameters
+in the initial dataset I obtained from airqualityengland.co.uk.
+
+Many features appear uncorrelated across time with symetrical triangular
+cross-correlation functions, some appear to have asymetrical profiles with respect
+to 0 lag, suggesting the presence of long-term trends.
+
+Generally, it is not possible to determine causality from an
+arbitrary shape of the cross-correlation function. However, if the
+cross-correlation function is asymmetric with respect to the time
+reversal operation (change of a sign of the time lag), it might hint at
+the presence of causal relationships.
+
+see: docs/1977_Pierce_Causality_in_temporal_systems.pdf
+
+Similar features such as NO vs NO2 and PM10 vs PM25 are strongly positively
+correlated with lags of 0 as is to be expected, however, the analysis reveals
+that there may be other interesting relations between parameters.
+
+    - PM10 vs NO
+    - 
+
+By continually moving code from jupyter notebooks into the pysmog module
+allowing me to keep the jupyter notebooks cleaner as well as more consisntent over
+time.
+
+[x] Create cross correlations
+
+# 09/08/2023
+
+Meeting 10am
+    
+    - Ask about interpreation of cross-correlation functions
+        - Some averaging of the CCFs could be done to better constrain the shapes
+    - Fitting Lorentzians in log vs linear space
+        - It could be that the function and the frequencies should be converted to log.
+    - Advice for Postdoc interview
+        - Be yourself
+    - Ask about RMS-Flux relationship 
+        - 
+    - Ask about the baseline modelling idea
+
+    Spent most of today going on a long cycle to Layton so didn't get much done on the work front
 
 
+
+# 14/08/2023
+Spent aa bit of time now trying to do some averaging of the CCFs and PSDs.
+
+# 22/08/2023 
+
+Had interview for Tolouse this morning, think it went quite well, I worked a
+bit more on the lmfit routine to fit the PSDs, one issue is adding the
+Lorentzian components in log-space results in incorrect values.
+
+
+        
 # TODO (x:done -:started)
-[-] Read through and take notes on GX399-4 Paper.
-[ ] Create cross correlations
-
 [ ] Create Lorentzian fits to PSD
-[ ] Normalize PSDs
-[ ] Create Python package
-
-
-
+[ ] Work on a routine to calculate the RMS-Flux relationship
+[ ] Create Averaged PSDs
+[ ] Created Averaged CCFs
+[ ] Think about creating tests for the module.

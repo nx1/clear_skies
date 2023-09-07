@@ -91,6 +91,24 @@ https://ui.adsabs.harvard.edu/abs/2010MNRAS.407.2166G/abstract
 
 
 5. Discussion
+    - The LF-QPO is not new, but its detection across multiple wavelengths has now
+    been established. Also, there is now a much larger range of frequencies that has
+    been invesitgated for the source extending to ~10Hz.
+
+    - The origin of the source emission at multiple wavelengths is still uncertain however
+    possible explaination are:
+        - Disc Emission
+        - Relativistic Jet Plasma
+        - Non-relativistic cyclosynchrotron emission from the corona
+
+    - The X-rays are proposed to originate from:
+        - Compton upscattering of Seed photons from the disc or the jet.
+        - Optically-thin jet synchrotron emission.
+
+
+
 7. Conclusions
 
-
+- Origin of the optical QPO still remains unclear.
+- Longer follow ups would enhance the constraints
+- 

@@ -1,6 +1,19 @@
 Clear Skies - From Astrophysics to Air Pollution
 ------------------------------------------------
 
+Installation and Usage
+----------------------
+
+To work on the "pysmog" module, it's recommended to use a virtual environment
+to isolate dependencies. Follow these steps to set up the environment:
+
+> git clone https://github.com/nx1/clear_skies.git
+> cd clear_skies
+> python3 -m venv pysmog 
+> source pysmog/bin/activate
+> pip install .
+> deactivate
+
 Links
 -----
 STFC Air Quality Network
