@@ -189,17 +189,15 @@ Meeting 10am
         - 
     - Ask about the baseline modelling idea
 
-    Spent most of today going on a long cycle to Layton so didn't get much done on the work front
 
 
 
 # 14/08/2023
-Spent aa bit of time now trying to do some averaging of the CCFs and PSDs.
+Spent a bit of time now trying to do some averaging of the CCFs and PSDs.
 
 # 22/08/2023 
 
-Had interview for Tolouse this morning, think it went quite well, I worked a
-bit more on the lmfit routine to fit the PSDs, one issue is adding the
+Worked bit more on the lmfit routine to fit the PSDs, one issue is adding the
 Lorentzian components in log-space results in incorrect values.
 
 
